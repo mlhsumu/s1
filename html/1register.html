@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+</head>
+
+<body>
+    <!--page heading-->
+    <h1>Register Page</h1>
+    <hr>
+    <!--fromS-->
+    <form>
+        <input type="text" name="F-name" placeholder="username" /><br />
+        <input type="email" name="mail" placeholder="Email" /><br />
+
+
+
+        <!--radio start-->
+
+        <!--select start-->
+        <label for="occupation"> Are you a ?</label><br>
+        <select name="occupation" id="occupation">
+
+            <option value="student"> student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="nothing">Nothing</option>
+        </select><br>
+
+        <!--select end-->
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="female">
+        <label for="Female">female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">other</label><br>
+        <!--radio end-->
+
+
+
+
+        <input type="password" name="password" placeholder="password" /><br />
+        <input type="password" name="c-password" placeholder="confirm password" /><br>
+        <input type="submit" value="register" />
+    </form>
+    <p>Already have an account please <a href="html/index.html" target="_blank">Login here</a></p>
+
+</body>
+
+</html>
